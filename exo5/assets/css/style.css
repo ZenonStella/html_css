@@ -1,3 +1,8 @@
+body { 
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
 .center {
     text-align: center;
 }
@@ -6,5 +11,5 @@ table, th, td {
     border-collapse: collapse;
 }
 .titre-table {
-    margin-left: 90px ;
+    text-align: center;
 }
