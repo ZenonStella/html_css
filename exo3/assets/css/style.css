@@ -1,0 +1,15 @@
+em {
+    font-style: normal;
+}
+.kilos {
+ color: red;
+}
+.litres {
+    color: green;
+}
+.boites {
+    font-weight: bold;
+}
+.italique {
+    font-style: italic;
+}
