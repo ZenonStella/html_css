@@ -20,7 +20,9 @@ table, th, td {
 }
 th, td {
   width: 70px;
-  padding: 10px 15px;
+}
+td {
+  padding: 10px 25px;
 }
 .col1 {
   text-align: left;
@@ -32,6 +34,7 @@ thead {
   background-color: white;
   color: black;
   width: 350px;
+  padding: 10px 6px;
 }
 .head2 {
   background-color: #ff9d00;
@@ -56,11 +59,11 @@ thead {
   color: #ec3d45;
 }
 .bi {
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 1.3em;
 }
 .red {
-  color: red;
+  color: #ec3d45;
 }
 .green {
   color: green;
@@ -71,9 +74,12 @@ a {
 .bouton {
   font-weight: bold;
   background-color: #ff9d00;
-  border-radius: 50px;
+  border-radius: 30px;
   color: white;
   width: 150px;
   font-size: 1.1em;
   padding: 10px;
+}
+.bouton:hover {
+  background-color: #462c03;
 }
