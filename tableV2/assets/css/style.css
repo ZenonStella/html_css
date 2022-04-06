@@ -1,0 +1,79 @@
+body {
+  background-color:#292727;
+  display: flex;
+  justify-content: center;
+}
+div {
+  text-align: center;
+  width: 1050px;
+  color: white;
+  font-size: 1rem;
+  font-family:'Open Sans', sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+table, th, td {
+  border: 1px solid rgba(128, 128, 128, 0.249);
+  border-collapse: collapse;
+}
+th, td {
+  width: 70px;
+  padding: 10px 15px;
+}
+.col1 {
+  text-align: left;
+}
+thead {
+  text-transform: uppercase;
+}
+.head1 {
+  background-color: white;
+  color: black;
+  width: 350px;
+}
+.head2 {
+  background-color: #ff9d00;
+}
+.head3 {
+  background-color: #ec3d45;
+}
+.head4 {
+  background-color: #08b9ca;
+}
+.prix {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.prix1 {
+  color: #ff9d00;
+}
+.prix2 {
+  color: #08b9ca;
+}
+.prix3{
+  color: #ec3d45;
+}
+.bi {
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+.bouton {
+  font-weight: bold;
+  background-color: #ff9d00;
+  border-radius: 50px;
+  color: white;
+  width: 150px;
+  font-size: 1.1em;
+  padding: 10px;
+}
