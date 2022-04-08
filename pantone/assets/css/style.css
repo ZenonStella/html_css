@@ -80,7 +80,7 @@ main {
     height: 3em;
     font-size: 3rem;
     display: flex;
-    justify-content:right;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 .box-color p {
