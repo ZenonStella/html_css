@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+/* 
+
+
+                                HEADER
+
+
+*/
+
+header{
+    max-width: 100%;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #C0C0C0;
+}
+header h1{
+    font-size: 1.5em;
+    /* width: 13rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header img {
+    margin-right: 2.5em;
+}
+.line {
+    margin-top: 3em;
+    border-top: 1px solid #C0C0C0;
+    width: 95rem;
+}
+/* 
+
+
+                                MAIN
+
+
+*/
+main {
+    max-width: 75%;
+
+}
+.bold {
+    font-weight: bold;
+}
+.cyan {
+    background-color: cyan;
+}
+.magenta {
+    background-color: magenta;
+}
+.jaune {
+    background-color: yellow;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-grow: 3; */
+}
+.box-general {
+    width: 30%;
+    margin: 1em;
+}
+.box-color {
+    color: white;
+    height: 3em;
+    font-size: 3rem;
+    display: flex;
+    justify-content:right;
+    align-items: flex-end;
+}
+.box-color p {
+    margin: 0;
+
+}
+.box-blue {
+    background-color: #0F4C81;
+}
+.box-coral {
+    background-color: #FF6F61;
+}
+.box-violet {
+    background-color: #5F4B8B;
+}
+.box-peri {
+    background-color: #6868AC;
+}
+.box-grey {
+    background: rgb(233,213,82);
+    background: linear-gradient(90deg, rgba(233,213,82,1) 50%, rgba(148,149,151,1) 50%);
+}
+h3 { 
+    text-align: center;
+}
+
+/* 
+
+
+                                        FOOTER
+
+
+*/
+footer{
+    width: 90%;
+    text-align: right;
+    display: flex;
+    justify-content: start;
+}

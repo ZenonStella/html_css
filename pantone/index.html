@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>5 années de <img src="assets/img/logo-pantone.png" alt="logo-pantone"></h1>
+        <div class="title">
+            <h1>5 années de <img src="assets/img/logo-pantone.png" alt="logo-pantone"></h1>
+        </div>
+        <div class="line"></div>
     </header>
     <main>
         <section>
@@ -20,7 +26,7 @@
                 en 1962. Il y développe son premier système de couleurs Pantone Matching System ou 
                 PMS pour l'impression en 1963.</p>
             <p>Dans les années 1990, Pantone invente un nouveau procédé de séparation des 
-                couleurs d'imprimerie : <span class="blod">l'hexachromie</span> .</p>
+                couleurs d'imprimerie : <span class="bold">l'hexachromie</span> .</p>
             <p>En octobre 2007, Pantone est rachetée par <span class="bold">X-Rite</span> .</p>
         </section>
         <section>
@@ -36,61 +42,68 @@
                 la trame sur chaque couleur, variations d’encrage de la machine, etc.).</p>
         </section>
         <section>
-            <div class="box-general gene1">
-                <div class="box-color box-blue">
-                    <p class="date">2020</p>
+            <h2>Pantone de l'année</h2>
+            <div class="box">
+                <div class="box-general gene1">
+                    <div class="box-color box-peri">
+                        <p class="date bold">2022</p>
+                    </div>
+                    <div class="text">
+                        <h3>Very Peri 17-3938</h3>
+                        <p>Cette couleur a « les qualités de bleu mais avec une touche de rouge-violet », 
+                            précise l'Institut. Intense et douce à la fois, la nuance Very Peri possède plusieurs 
+                            facettes et peut tantôt apporter caractère ou douceur</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h3>Classic Blue 19-4052</h3>
-                    <p>Inspirant la sérénité, la confiance et le partage, cette teinte de bleu immuable 
-                        souligne notre désir de bases fiables et stables sur lesquelles bâtir au seuil
-                        d'une nouvelle ère.</p>
+                <div class="box-general gene2">
+                    <div class="box-color box-grey">
+                        <p class="date bold">2021</p>
+                    </div>
+                    <div class="text">
+                        <h3>Ultimate Gray 17-5104 et Illuminating 13-0647</h3>
+                        <p>Cette année, le choix de deux couleurs indépendantes souligne l'alliance des 
+                            différents éléments pour exprimer un message de force et d'espoir, à la fois 
+                            intemporel et inspirant.</p>
+                    </div>
+                </div>            
+                <div class="box-general gene3">
+                    <div class="box-color box-blue">
+                        <p class="date bold">2020</p>
+                    </div>
+                    <div class="text">
+                        <h3>Classic Blue 19-4052</h3>
+                        <p>Inspirant la sérénité, la confiance et le partage, cette teinte de bleu immuable 
+                            souligne notre désir de bases fiables et stables sur lesquelles bâtir au seuil
+                            d'une nouvelle ère.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="box-general gene2">
-                <div class="box-color box-coral">
-                    <p class="date">2019</p>
+                <div class="box-general gene4">
+                    <div class="box-color box-coral">
+                        <p class="date bold">2019</p>
+                    </div>
+                    <div class="text">
+                        <h3>Living Coral 16-1546</h3>
+                        <p>Une nuance corail vivifante, avec des nuances dorées qui lui insufflent vie et énergie,
+                            tout en l'adoucissant légèrement.</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h3>Living Coral 16-1546</h3>
-                    <p>Une nuance corail vivifante, avec des nuances dorées qui lui insufflent vie et énergie,
-                        tout en l'adoucissant légèrement.</p>
-                </div>
-            </div>
-            <div class="box-general gene3">
-                <div class="box-color box-violet">
-                    <p class="date">2018</p>
-                </div>
-                <div class="text">
-                    <h3>Ultra Violet 18-3838</h3>
-                    <p>Assurément provocante et interpellante, la teinte violette Pantone 18-3838 Ultra Violet
-                        exprime l'originalité, l'ingéniosité et une pensée visionnaire qui nous propulse vers
-                        l'avenir.</p>
-                </div>
-            </div>
-            <div class="box-general gene4">
-                <div class="box-color box-green">
-                    <p class="date">2017</p>
-                </div>
-                <div class="text">
-                    <h3>Greenery 15-0343</h3>
-                    <p>Une version plus douce de la couleur en 2016 : pour la première fois, le mélange de 
-                        deux teintes - Serenity et Rose Quartz - est élu Pantone Color of the Year.</p>
-                </div>
-            </div>
-            <div class="box-general gene5">
-                <div class="box-color box-serenity"></div>
-                <div class="box-color box-rose">
-                    <p class="date">2016</p>
-                </div>
-                <div class="text">
-                    <h3>Rose Quartz 13-1520 et Serenity 15-3919</h3>
-                    <p>Une version plus douce de la couleur en 2016 : pour la première fois, le mélange de 
-                        deux teintes - Serenity et Rose Quartz - est élu Pantone Color of the Year.</p>
+                <div class="box-general gene5">
+                    <div class="box-color box-violet">
+                        <p class="date bold">2018</p>
+                    </div>
+                    <div class="text">
+                        <h3>Ultra Violet 18-3838</h3>
+                        <p>Assurément provocante et interpellante, la teinte violette Pantone 18-3838 Ultra Violet
+                            exprime l'originalité, l'ingéniosité et une pensée visionnaire qui nous propulse vers
+                            l'avenir.</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <p>Source : Wikipedia et Pantone.com</p>
+    </footer>
     
 </body>
 </html>
