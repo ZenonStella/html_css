@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.container {
+    width: 70vw;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 35vh 35vh 35vh 20vh;
+}
+/* 
+
+                                    font
+
+
+*/
+.litle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    /* color: gray; */
+}
+.maj {
+    text-transform: uppercase;
+}
+.big {
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+}
+.bighard {
+    font-family: 'Arvo', serif;
+    font-size: 1.6rem;
+}
+.capita{
+    text-transform: capitalize;
+}
+.blanc {
+    color: white;
+}
+.noir {
+    color: black;
+}
+/* 
+
+
+                                                    cards
+
+
+ */
+a {
+    text-decoration: none;
+    color:darkcyan;
+}
+.cards {
+    /* border: 1px solid black; */
+    padding: 0 2rem;
+}
+.card1{
+    grid-column: 1/span 6;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.card1 .img , img{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.card2{
+    background-color: #F7F8F9;
+    text-align: center;
+    grid-column: 7/span 6;
+    grid-row: 1/2;
+}
+.card2 a {
+    text-decoration:underline;
+}
+
+.card3 {
+    grid-row: 2/3;
+    background-color: #F05638;
+    color: white;
+    text-align: center;
+    grid-column: 1/span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card3 .img{
+    display: flex;
+    align-items: center;
+}
+.card3 a {
+    color: yellow;
+}
+.card4 {
+    grid-row: 2/3;
+    grid-column: 4/span 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card4 .row {
+    width: 45%;
+}
+/* .card4 .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.card4 .img {
+    width: 100%;
+    /* display: flex;
+    align-items: flex-end; */
+}
+.card5 {
+    background-color: #9981c3;
+    grid-column: 10/span 3;
+    grid-row: 2/4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card5 .cercle {
+    padding-top: 1rem;
+    border-radius: 50%;
+    background-color: #8166B0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.card5 .img {
+    margin-top: 1rem;
+    width: 60%;
+}
+.popular {
+    background-color: #9981c3;
+    border-radius: 30px;
+    padding: 5px 10px;
+    /* margin: 0 auto; */
+}
+.bouton {
+    background-color: rgb(216, 216, 36);
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+.card6 {
+    grid-column: 1/span 3;
+    grid-row: 3/4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card7 {
+    grid-column: 4/span 6;
+    grid-row: 3/4;
+    background-color: #93B6B7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.best {
+    background-color: #F05638;
+    width: 5rem;
+    height: 1rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.card7 .img {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.card8 {
+    grid-column: 1/span 3; 
+    grid-row: 4/5;
+    background-color:  #38D5F4 ;
+    display: flex;
+    justify-content: center;
+}
+.card8 .cercle {
+    width: 70%;
+    text-align: center;
+    border-radius: 50%;
+    background-color:  #27bfdd ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card8 .cercle .img {
+    margin-top: 2rem;
+    width: 20%;
+}
+.card9 {
+    grid-column: 4/span 3;
+    text-align: center;
+    grid-row: 4/5;
+}
+.pop {
+    width: 5rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    background-color:rgb(99, 190, 7);
+    color: white;
+}
+.card10 {
+    grid-column: 7/span 6;
+    grid-row: 4/5;
+    background-color: #2C2C2C;
+    display: flex;
+    align-items: center;    
+}
+.card10 .img {
+    width: 50%;
+    margin: 0 3rem;
+}
+img {
+    width: 100%;
+}
