@@ -65,7 +65,7 @@ a {
     align-items: center;
 } 
 .card1 .img{
-    width: 50%;
+    width: 40%;
     height: auto;
     display: flex;
     align-items: flex-end;
@@ -230,11 +230,16 @@ a {
     background-color: #2C2C2C;
     display: flex;
     align-items: center;    
+    justify-content: space-evenly;
 }
 .card10 .img {
     border: 1px solid black;
     width: 30%;
-    margin: 0 3rem;
+    margin-right: 1rem;
+    /* margin: 0 3rem; */
+}
+.card10 .text {
+    margin-left: 6rem;
 }
 img {
     width: 100%;
@@ -265,7 +270,7 @@ img {
         font-size: .5rem;
     }
     .container {
-        grid-template-rows: 28vh 25vh 25vh 15vh;
+        grid-template-rows: 25vh 25vh 25vh 15vh;
 
 
     }
