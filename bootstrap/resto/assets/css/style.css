@@ -1,0 +1,34 @@
+body {
+    background-color: burlywood;
+
+}
+header {
+    background: url(https://i0.wp.com/lecroqartcafe.fr/wp-content/uploads/2021/05/IMG_20200730_151442-1-scaled.jpg?resize=500%2C375&ssl=1) no-repeat center;
+    background-size: cover;
+    height: 30vh;
+}
+nav, .badge {
+    background-color: #434343;
+}
+h3 {
+    font-size: 1.1em;
+}
+/* .container {
+} */
+.img {
+    width: 10%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.img-card {
+    max-height: 10wh;
+}
+.card{
+    width: 18rem;
+}
+.btn-primary {
+    background-color: burlywood;
+    
+}

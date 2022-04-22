@@ -1,0 +1,13 @@
+body {
+    font-size: 1.2rem;
+}
+img {
+    width: 100%;
+}
+.id-img {
+    width: 7%;
+    height: auto;
+}
+.stats {
+    font-size: .9em;
+}
